@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile {
+  width: 50px;
+  border-radius: 25px;
+  border: 1px solid grey;
+  float: left;
+}
+
+.name-box {
+  float: left;
+}
+
+.left {
+  width: 80%;
+  height: 200px;
+  float: left;
+}
+
+.right {
+  width: 20%;
+  height: 150px;
+  float: left;
+}
+
+.name,
+.time {
+  margin: 6px;
+}
+
+.desc {
+  clear: both;
+  margin: 2px;
+}
