@@ -1,48 +1,127 @@
-body{
-    margin:0;
+@import "reset.css";
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: grey;
 }
-a {
-    color:black;
-    text-decoration: none;
+
+.main-background {
+  width: 100%;
+  height: auto;
+  background-image: url("img/shoes.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  text-align: center;
 }
-#active {
-    color:red;
+
+.main-title {
+  color: white;
+  font-size: 30px;
+  margin-top: 100px;
 }
-h1 {
-    font-size: 45px;
-    text-align: center;
-    border-bottom:  1px solid gray;
-    margin:0;
-    padding:20px;
+
+.main-sub {
+  color: white;
 }
-ol {
-    border-right:1px solid gray;
-    width:100px;
-    margin:0;
-    padding : 20px;
-    padding-left:33px;
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  top: 100px;
 }
-#grid{
-    display: grid;
-    grid-template-columns: 150px 1fr;
+
+.sub-desc {
+  width: 80%;
+  max-width: 600px;
+  height: 200px;
+  margin: auto;
+  padding-top: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  top: -35px;
+  border-radius: 15px;
+  background-color: antiquewhite;
 }
-#article{
-    padding:25px;
+
+input {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid grey;
+  margin-top: 15px;
 }
-.picture{
-    padding-left:100px;
+
+.join-form {
+  width: 80%;
+  height: auto;
+  max-width: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: white;
 }
-img {
-    width:500px;
+
+.email-box {
+  margin-bottom: 20px;
 }
-@media(max-width:800px){
-    #grid {
-        display:block;
-    }
-    ol {
-        border-right: none;
-    }
-    h1{
-        border-bottom:none;
-    }
+
+.name-box {
+  margin-bottom: 50px;
+}
+
+.first-box {
+  float: left;
+  width: 48%;
+}
+
+.second-box {
+  float: right;
+  width: 48%;
+}
+
+.message-box {
+  clear: both;
+  padding-top: 25px;
+}
+
+.message--box {
+  height: 300px;
+}
+
+.checkbox {
+  width: 10px;
+  color: grey;
+  position: relative;
+  top: 26px;
+}
+
+.checkbox-btn {
+  position: relative;
+  bottom: 7px;
+}
+
+.send {
+  position: relative;
+  bottom: 23px;
+  float: right;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 5px;
+}
+
+.sub {
+  position: relative;
+  bottom: 27px;
+  left: 23px;
 }
