@@ -3,125 +3,71 @@
 body {
   margin: 0;
   height: 100vh;
-  background-color: grey;
 }
 
-.main-background {
-  width: 100%;
-  height: auto;
-  background-image: url("img/shoes.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 1px;
-  text-align: center;
+img {
+  width: 60px;
+  height: 60px;
 }
 
-.main-title {
-  color: white;
-  font-size: 30px;
-  margin-top: 100px;
-}
-
-.main-sub {
-  color: white;
-}
-
-.main-button {
+.cart-table td,
+.cart-table th {
   padding: 15px;
-  font-size: 20px;
-  background-color: white;
-  border: none;
-  border-radius: 15px;
-  position: relative;
-  top: 100px;
+  border-bottom: 1px solid darkblue;
 }
 
-.sub-desc {
-  width: 80%;
-  max-width: 600px;
-  height: 200px;
-  margin: auto;
-  padding-top: 25px;
-  box-sizing: border-box;
+h3 {
   text-align: center;
-  position: relative;
-  top: -35px;
-  border-radius: 15px;
-  background-color: antiquewhite;
 }
 
-input {
-  box-sizing: border-box;
-  padding: 10px;
+.money {
+  color: red;
+}
+
+.cart-background {
   width: 100%;
-  border: 1px solid grey;
-  margin-top: 15px;
+  background-color: #c2d3de;
+  padding: 30px;
 }
 
-.join-form {
-  width: 80%;
-  height: auto;
-  max-width: 600px;
-  padding: 30px;
-  box-sizing: border-box;
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+
   margin: auto;
   background-color: white;
+  border-radius: 10px;
+  border-collapse: collapse;
 }
 
-.email-box {
-  margin-bottom: 20px;
+.cart-table th:nth-child(2) {
+  width: 400px;
 }
 
-.name-box {
-  margin-bottom: 50px;
+.cell-long {
+  width: 700px;
 }
 
-.first-box {
-  float: left;
-  width: 48%;
+.btn-box {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
 }
 
-.second-box {
-  float: right;
-  width: 48%;
+.btn-box {
+  margin-top: 25px;
+  text-align: right;
 }
-
-.message-box {
-  clear: both;
-  padding-top: 25px;
-}
-
-.message--box {
-  height: 300px;
-}
-
-.checkbox {
-  width: 10px;
-  color: grey;
-  position: relative;
-  top: 26px;
-}
-
-.checkbox-btn {
-  position: relative;
-  bottom: 7px;
-}
-
-.send {
-  position: relative;
-  bottom: 23px;
-  float: right;
-  border: none;
-  width: 100px;
-  height: 30px;
-  background-color: yellowgreen;
+.buy {
+  padding: 15px;
+  background-color: tomato;
   color: white;
-  border-radius: 5px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
-.sub {
-  position: relative;
-  bottom: 27px;
-  left: 23px;
+.buy:hover {
+  color: aquamarine;
+  text-decoration: underline;
 }
