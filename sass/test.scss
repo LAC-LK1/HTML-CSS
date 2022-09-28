@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+%box {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.box-red {
+  @extend %box;
+  background-color: red;
+}
+
+.box-green {
+  @extend %box;
+  background-color: green;
+}
+
+.box-blue {
+  @extend %box;
+  background-color: blue;
+}

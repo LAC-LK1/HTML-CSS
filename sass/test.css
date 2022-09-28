@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.box-blue, .box-green, .box-red {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.box-green {
+  background-color: green;
+}
+
+.box-blue {
+  background-color: blue;
+}/*# sourceMappingURL=test.css.map */
