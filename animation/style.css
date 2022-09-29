@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+@keyframes shakeBtn {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes shakePlus {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotate(-25deg);
+  }
+  50% {
+    transform: rotate(30deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(30deg) scale(1.5);
+  }
+}
+
+@keyframes showMenu {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: translateX(150px);
+  }
+  50% {
+    trasnfrom: skewY(10deg);
+  }
+  100% {
+    transform: translateX(-50px);
+  }
+}
+
+button {
+  border: none;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  margin-top: 50px;
+  color: white;
+}
+
+button:hover {
+  animation: shakeBtn 0.6s ease forwards;
+}
+
+i {
+  font-size: 50px;
+}
+
+i:hover {
+  animation: shakePlus 1.2s ease-out forwards;
+}
+
+.menu-box {
+  margin-top: 100px;
+  width: 150px;
+  height: 400px;
+  background-color: black;
+}
+
+.menu-box {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  transition: all 1s;
+}
+
+.menu-box div {
+  padding: 20px;
+}
+
+.menu-item {
+  transform: translateX(-130px);
+}
+
+.menu-box:hover {
+  width: 300px;
+  text-align: center;
+  animation: showMenu 1s ease forwards;
+}
