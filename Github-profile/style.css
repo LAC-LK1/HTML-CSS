@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background-color: #22272e;
+}
+
+.wrap {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+.header__main--title,
+.header__sub--title {
+  color: #adbac7;
+  text-align: left;
+}
+
+.header__main--title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header__sub--title {
+  font-size: 15px;
+  opacity: 0.4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.header__edit--profile {
+  padding: 10px 110px;
+  background-color: #373e47;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #adbac7;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.info {
+  width: 280px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: #adbac7;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 0.1px solid #6e7e8f;
+}
+
+.info i {
+  margin-right: 10px;
+}
+
+.info-company,
+.info-area {
+  margin: 10px 0;
+}
+
+.follow {
+  width: 280px;
+  text-align: left;
+  padding-bottom: 20px;
+  border-bottom: 0.1px solid #6e7e8f;
+}
+.follow p {
+  color: #adbac7;
+  font-weight: bold;
+}
+
+.follow__img--box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0.5px solid white;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.follow-beta {
+  padding: 3px 10px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 40%;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.follow-feedback {
+  color: deepskyblue;
+  opacity: 0.7;
+  font-size: 13px;
+  cursor: pointer;
+}
